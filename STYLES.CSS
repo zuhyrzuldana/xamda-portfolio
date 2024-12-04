@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(6, 79, 103);
+    color: #f4f0f0;
+}
+
+nav {
+    background-color: #4e8ac6;
+    color: #f4f0f0;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #123b87;
+    border-radius: 5px;
+}
+
+/* Home Section */
+#home {
+    background-color: #165072;
+    color:  rgb(244, 246, 248);
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #f4f0f0;
+}
+
+header p {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 20px;
+    background-color: rgb(4, 167, 237);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+#skills {
+    padding: 20px;
+    background-color:  rgb(4, 167, 237);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Educational Background Section */
+#education {
+    padding: 20px;
+    background-color: rgb(4, 167, 237);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#education ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#education ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Experience Section */
+#experience {
+    padding: 20px;
+    background-color: rgb(4, 167, 237);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    background-color: rgb(4, 167, 237);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(168, 252, 2, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(10, 74, 102);
+    color:  rgb(244, 246, 247);
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-right: 0;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+}
